@@ -1,0 +1,71 @@
+09:35:58 [Trace::Build] SPAWN BUILD TOOL v1.3
+09:35:58 [Trace::Build] ---------------------------------
+09:35:58 [Trace::Build] Action="COPYHDTPLUGIN"
+09:35:58 [Trace::Build] SourceFile="C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\bin\Debug\Spawn.HDT.StrangerCards.dll"
+09:35:58 [Trace::Build] TargetFileName="Spawn.HDT.StrangerCards"
+09:35:58 [Trace::Build] Launch="True"
+09:35:58 [Trace::Build] ---------------------------------
+09:35:58 [Trace::CopyHDTPluginAction] HDT not running
+09:35:58 [Trace::CopyHDTPluginAction] Copying plugin...
+09:35:58 [Trace::CopyHDTPluginAction] Plugin copied
+09:35:58 [Trace::CopyHDTPluginAction] Launching HDT...
+09:35:58 [Trace::CopyHDTPluginAction] Latest version: v1.4.0
+09:35:59 [Trace::Build] Action copyhdtplugin successful
+09:35:59 [Trace::Build] Finished.
+09:36:12 [Trace::Build] SPAWN BUILD TOOL v1.3
+09:36:12 [Trace::Build] ---------------------------------
+09:36:12 [Trace::Build] Action="BUILDSOLUTION"
+09:36:12 [Trace::Build] BuildConfiguration="Release"
+09:36:12 [Trace::Build] MSBuildPath="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe"
+09:36:12 [Trace::Build] ProjectPath="C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards.csproj"
+09:36:12 [Trace::Build] OutputPath="C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases\Spawn.HDT.StrangerCards"
+09:36:12 [Trace::Build] OutputFileExtensions="*.dll"
+09:36:12 [Trace::Build] ZipOutputFiles="True"
+09:36:12 [Trace::Build] ZipArchiveName="Spawn.HDT.StrangerCards.zip"
+09:36:12 [Trace::Build] ---------------------------------
+09:36:12 [Trace::BuildSolutionAction] Launching MSBuild...
+09:36:14 [Trace::BuildSolutionAction] Build complete
+09:36:14 [Trace::BuildSolutionAction] Build directory: "C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\bin\Release"
+09:36:14 [Trace::BuildSolutionAction] Copying "C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\bin\Release\De.TorstenMandelkow.MetroChart.dll" to "C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases\Spawn.HDT.StrangerCards\Files"
+09:36:14 [Trace::BuildSolutionAction] Copying "C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\bin\Release\DeltaCompressionDotNet.dll" to "C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases\Spawn.HDT.StrangerCards\Files"
+09:36:14 [Trace::BuildSolutionAction] Copying "C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\bin\Release\DeltaCompressionDotNet.MsDelta.dll" to "C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases\Spawn.HDT.StrangerCards\Files"
+09:36:15 [Trace::BuildSolutionAction] Copying "C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\bin\Release\HearthDb.dll" to "C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases\Spawn.HDT.StrangerCards\Files"
+09:36:15 [Trace::BuildSolutionAction] Copying "C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\bin\Release\HearthMirror.dll" to "C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases\Spawn.HDT.StrangerCards\Files"
+09:36:15 [Trace::BuildSolutionAction] Copying "C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\bin\Release\HearthWatcher.dll" to "C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases\Spawn.HDT.StrangerCards\Files"
+09:36:15 [Trace::BuildSolutionAction] Copying "C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\bin\Release\HSReplay.dll" to "C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases\Spawn.HDT.StrangerCards\Files"
+09:36:15 [Trace::BuildSolutionAction] Copying "C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\bin\Release\HtmlAgilityPack.dll" to "C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases\Spawn.HDT.StrangerCards\Files"
+09:36:15 [Trace::BuildSolutionAction] Copying "C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\bin\Release\ICSharpCode.SharpZipLib.dll" to "C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases\Spawn.HDT.StrangerCards\Files"
+09:36:15 [Trace::BuildSolutionAction] Copying "C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\bin\Release\LiveCharts.dll" to "C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases\Spawn.HDT.StrangerCards\Files"
+09:36:15 [Trace::BuildSolutionAction] Copying "C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\bin\Release\LiveCharts.Wpf.dll" to "C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases\Spawn.HDT.StrangerCards\Files"
+09:36:15 [Trace::BuildSolutionAction] Copying "C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\bin\Release\MahApps.Metro.dll" to "C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases\Spawn.HDT.StrangerCards\Files"
+09:36:15 [Trace::BuildSolutionAction] Copying "C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\bin\Release\Mono.Cecil.dll" to "C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases\Spawn.HDT.StrangerCards\Files"
+09:36:15 [Trace::BuildSolutionAction] Copying "C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\bin\Release\Newtonsoft.Json.dll" to "C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases\Spawn.HDT.StrangerCards\Files"
+09:36:15 [Trace::BuildSolutionAction] Copying "C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\bin\Release\NuGet.Squirrel.dll" to "C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases\Spawn.HDT.StrangerCards\Files"
+09:36:15 [Trace::BuildSolutionAction] Copying "C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\bin\Release\SharpRaven.dll" to "C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases\Spawn.HDT.StrangerCards\Files"
+09:36:15 [Trace::BuildSolutionAction] Copying "C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\bin\Release\Spawn.HDT.StrangerCards.dll" to "C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases\Spawn.HDT.StrangerCards\Files"
+09:36:15 [Trace::BuildSolutionAction] Copying "C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\bin\Release\Splat.dll" to "C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases\Spawn.HDT.StrangerCards\Files"
+09:36:15 [Trace::BuildSolutionAction] Copying "C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\bin\Release\Squirrel.dll" to "C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases\Spawn.HDT.StrangerCards\Files"
+09:36:15 [Trace::BuildSolutionAction] Copying "C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\bin\Release\System.Windows.Interactivity.dll" to "C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases\Spawn.HDT.StrangerCards\Files"
+09:36:15 [Trace::BuildSolutionAction] Copying "C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\bin\Release\WPFLocalizeExtension.dll" to "C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases\Spawn.HDT.StrangerCards\Files"
+09:36:15 [Trace::BuildSolutionAction] Copying "C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\bin\Release\XAMLMarkupExtensions.dll" to "C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases\Spawn.HDT.StrangerCards\Files"
+09:36:15 [Trace::BuildSolutionAction] Creating zip archive... (C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards.zip)
+09:36:16 [Trace::Build] Action buildsolution successful
+09:36:16 [Trace::Build] Finished.
+09:37:03 [Trace::Build] SPAWN BUILD TOOL v1.3
+09:37:03 [Trace::Build] ---------------------------------
+09:37:03 [Trace::Build] Action="BUILDSOLUTION"
+09:37:03 [Trace::Build] BuildConfiguration="Release"
+09:37:03 [Trace::Build] MSBuildPath="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe"
+09:37:03 [Trace::Build] ProjectPath="C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards.csproj"
+09:37:03 [Trace::Build] OutputPath="C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases"
+09:37:03 [Trace::Build] OutputFileExtensions="*.dll"
+09:37:03 [Trace::Build] ZipOutputFiles="True"
+09:37:03 [Trace::Build] ZipArchiveName="Spawn.HDT.StrangerCards.zip"
+09:37:03 [Trace::Build] ---------------------------------
+09:37:03 [Trace::BuildSolutionAction] Launching MSBuild...
+09:37:05 [Trace::BuildSolutionAction] Build complete
+09:37:05 [Trace::BuildSolutionAction] Build directory: "C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\bin\Release"
+09:37:05 [Trace::BuildSolutionAction] Copying "C:\Users\jchri\Documents\visual studio 2017\Projects\Spawn.HDT.StrangerCards\Spawn.HDT.StrangerCards\bin\Release\Spawn.HDT.StrangerCards.dll" to "C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases\Files"
+09:37:05 [Trace::BuildSolutionAction] Creating zip archive... (C:\Users\jchri\Documents\Visual Studio 2017\Projects\Spawn.HDT.StrangerCards\Releases\Spawn.HDT.StrangerCards.zip)
+09:37:05 [Trace::Build] Action buildsolution successful
+09:37:05 [Trace::Build] Finished.

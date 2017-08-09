@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="Spawn.HDT.StrangerCards.StrangerCardsOverlay"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Spawn.HDT.StrangerCards"
+             xmlns:controls="clr-namespace:Hearthstone_Deck_Tracker.Controls;assembly=HearthstoneDeckTracker"
+             mc:Ignorable="d"
+             Height="100" Width="250">
+    <Border BorderBrush="Black" BorderThickness="0" CornerRadius="15">
+        <Border.Background>
+            <SolidColorBrush Color="Black" Opacity=".4" />
+        </Border.Background>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+
+            <controls:CardMarker x:Name="Mark0" Width="36" Height="34" Grid.Row="0" Grid.Column="0" Margin="3,0,0,0" />
+            <controls:CardMarker x:Name="Mark1" Width="36" Height="34" Grid.Row="0" Grid.Column="1" Margin="3,0,0,0" />
+            <controls:CardMarker x:Name="Mark2" Width="36" Height="34" Grid.Row="0" Grid.Column="2" Margin="3,0,0,0" />
+            <controls:CardMarker x:Name="Mark3" Width="36" Height="34" Grid.Row="0" Grid.Column="3" Margin="3,0,0,0" />
+            <controls:CardMarker x:Name="Mark4" Width="36" Height="34" Grid.Row="0" Grid.Column="4" Margin="3,0,0,0" />
+            <controls:CardMarker x:Name="Mark5" Width="36" Height="34" Grid.Row="1" Grid.Column="0" Margin="3,0,0,0" />
+            <controls:CardMarker x:Name="Mark6" Width="36" Height="34" Grid.Row="1" Grid.Column="1" Margin="3,0,0,0" />
+            <controls:CardMarker x:Name="Mark7" Width="36" Height="34" Grid.Row="1" Grid.Column="2" Margin="3,0,0,0" />
+            <controls:CardMarker x:Name="Mark8" Width="36" Height="34" Grid.Row="1" Grid.Column="3" Margin="3,0,0,0" />
+            <controls:CardMarker x:Name="Mark9" Width="36" Height="34" Grid.Row="1" Grid.Column="4" Margin="3,0,0,0" />
+        </Grid>
+    </Border>
+</UserControl>

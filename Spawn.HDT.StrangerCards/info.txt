@@ -1,0 +1,22 @@
+## Stranger Cards
+Keep track of which cards in your hand didn't start in your deck.
+
+![Overlay](https://i.imgur.com/MXdwt24.png)
+
+
+
+--- Spawn.HDT.StrangerCards ---
+## v1.0
+- Initial release
+-------------------------------
+
+--- Spawn.HDT.Build ---
+## v1.0
+- Initial release
+
+## v1.1
+- Implemented proper logging
+
+## v1.2
+- Can now trigger a build without Visual Studio
+-----------------------
