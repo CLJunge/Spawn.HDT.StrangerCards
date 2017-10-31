@@ -38,12 +38,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="HearthDb">
-      <HintPath>..\..\..\..\..\AppData\Local\HearthstoneDeckTracker\app-1.4.0\HearthDb.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\..\..\AppData\Local\HearthstoneDeckTracker\app-1.5.4\HearthDb.dll</HintPath>
     </Reference>
     <Reference Include="HearthstoneDeckTracker">
-      <HintPath>..\..\..\..\..\AppData\Local\HearthstoneDeckTracker\app-1.4.0\HearthstoneDeckTracker.exe</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\..\..\AppData\Local\HearthstoneDeckTracker\app-1.5.4\HearthstoneDeckTracker.exe</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

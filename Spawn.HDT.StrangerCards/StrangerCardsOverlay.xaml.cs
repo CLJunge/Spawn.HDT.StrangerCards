@@ -25,9 +25,9 @@ namespace Spawn.HDT.StrangerCards
 
             for (int i = 0; i < m_vMarkers.Length; i++)
             {
-                m_vMarkers[i].Mark = CardMark.None;
-                m_vMarkers[i].Text = string.Empty;
-                m_vMarkers[i].SetCostReduction(0);
+                m_vMarkers[i].UpdateCardAge(null);
+                m_vMarkers[i].UpdateCostReduction(0);
+                m_vMarkers[i].UpdateIcon(CardMark.None);
             }
         }
         #endregion
@@ -47,22 +47,25 @@ namespace Spawn.HDT.StrangerCards
 
                 CardMarker marker = m_vMarkers[nZonePos - 1];
 
-                marker.Text = nZonePos.ToString();
+                //marker.Text = nZonePos.ToString();
+                marker.UpdateCardAge(nZonePos);
 
                 if (cardEntity.Info.Created && (!m_blnSpellsOnly || (m_blnSpellsOnly && cardEntity.Card.Type.Equals("spell", StringComparison.InvariantCultureIgnoreCase))))
                 {
-                    marker.Mark = CardMark.Created;
+                    //marker.Mark = CardMark.Created;
+                    marker.UpdateIcon(CardMark.Created);
                 }
                 else
                 {
-                    marker.Mark = CardMark.None;
+                    //marker.Mark = CardMark.None;
+                    marker.UpdateIcon(CardMark.None);
                 }
             }
 
             for (; nIndex < 10; nIndex++)
             {
-                m_vMarkers[nIndex].Text = string.Empty;
-                m_vMarkers[nIndex].Mark = CardMark.None;
+                m_vMarkers[nIndex].UpdateCardAge(null);
+                m_vMarkers[nIndex].UpdateIcon(CardMark.None);
             }
 
             UpdateLayout();
@@ -74,7 +77,7 @@ namespace Spawn.HDT.StrangerCards
         {
             Canvas.SetBottom(this, 35);
             Canvas.SetLeft(this, Core.OverlayCanvas.Width * .1);
-        } 
+        }
         #endregion
     }
 }

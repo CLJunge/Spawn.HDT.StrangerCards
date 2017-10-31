@@ -1,15 +1,15 @@
-﻿using System;
+﻿using Hearthstone_Deck_Tracker.API;
+using Hearthstone_Deck_Tracker.Plugins;
+using System;
 using System.Reflection;
 using System.Windows.Controls;
-using Hearthstone_Deck_Tracker.API;
-using Hearthstone_Deck_Tracker.Plugins;
 
 namespace Spawn.HDT.StrangerCards
 {
     public class StrangerCardsPlugin : IPlugin
     {
         #region Member Variables
-        private StrangerCardsOverlay m_overlay; 
+        private StrangerCardsOverlay m_overlay;
         #endregion
 
         #region Properties
@@ -30,7 +30,7 @@ namespace Spawn.HDT.StrangerCards
         #endregion
 
         #region Version
-        public Version Version => new Version(Assembly.GetExecutingAssembly().GetName().Version.ToString(2)); 
+        public Version Version => new Version(Assembly.GetExecutingAssembly().GetName().Version.ToString(3));
         #endregion
 
         #region MenuItem
@@ -66,7 +66,7 @@ namespace Spawn.HDT.StrangerCards
         #endregion
 
         #region OnUnload
-        public void OnUnload() 
+        public void OnUnload()
         {
             Core.OverlayCanvas.Children.Remove(m_overlay);
         }
@@ -93,7 +93,7 @@ namespace Spawn.HDT.StrangerCards
         {
             m_overlay.Visibility = System.Windows.Visibility.Collapsed;
         }
-        #endregion 
+        #endregion
         #endregion
     }
 }
